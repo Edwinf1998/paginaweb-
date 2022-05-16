@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("../imagenes/fondogeneral.jpg") fixed no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+header{
+    width: 1050px;
+    height: 1610px;
+    outline: 3px solid rgb(10, 10, 10);
+    margin: auto;
+    background: rgb(223, 175, 130);
+}
+
+nav{
+    width: 1030px;
+    height: 1500px;
+    outline: 3px solid rgb(10, 10, 10);
+    margin: auto;
+    position: relative;
+    top: 15px;
+    background: rgb(139, 145, 56);
+}
+#cabecera{
+    margin: auto;
+    width: 1030px;
+    height: 300px;
+    background: url("../imagenes/bosque_87394-3107.webp");
+    background-size:100%; 
+   
+}
+#texto1{
+    width: 1030px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+    color: rgb(250, 243, 243);
+    padding: 13px 70px ;  
+     
+}
+#menu{
+    width: 300px;
+    display: flex;
+    flex-direction: column;    
+}
+.caja{
+    width: 300px;
+    height: 50px;
+    background: rgb(33, 110, 26);
+    text-decoration: none;
+    color: rgb(231, 226, 226);
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.caja:hover{
+    width: 300px;
+    height: 50px;
+    background: rgb(230, 233, 230);
+    color: rgb(34, 22, 22);
+    font-size: 20px;
+    padding: 13px 20px;
+}
+#contenido{
+    width: 720px;
+    height: 1100px;
+    background: rgb(223, 222, 222);
+    position: relative;
+    top: -350px;
+    left: 300px;
+    border-radius: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+    outline: 3px solid rgb(39, 133, 20);
+    
+}
+#titulo{
+    width: 700px;
+    height: 50px;
+    color: rgb(57, 180, 20);
+    font-size: 25px;
+    padding: 10px 45px;
+    position: relative;
+    
+   
+}
+#cuadro1{
+    width: 400px;
+    height: 300px;
+    
+}
+        #cuadro1 img{
+        width: 350px;
+        height: 250px;
+        position: relative;
+        top: 25px;
+        left: 20px;
+         
+}
+#texto2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 400px;  
+    font-size: 15px;
+    padding: 30px 15px;
+    
+}
+
+/*referencia del 1er youtube*/
+    #youtube1{
+    width: 600px;
+    height: 300px;
+    
+    position:relative;
+    top: -300px;
+    margin: auto;
+}
+    #youtube1 img{
+    width: 300px;
+    height: 150px; 
+    top: 25%;
+    left: 25%;
+    position: relative;
+    transition: 1s; 
+}
+    #youtube1:hover img{
+    width: 600px;
+    height: 300px; 
+    top: 0px;
+    left: 0px;
+    position: relative;  
+}
+
+/*referencia del 2do youtube*/
+#youtube2{
+    width: 600px;
+    height: 300px;
+    position:relative;
+    top: -300px;
+    margin: auto;
+}
+    #youtube2 img{
+    width: 300px;
+    height: 150px; 
+    top: 25%;
+    left: 25%;
+    position: relative;
+    transition: 1s; 
+}
+    #youtube2:hover img{
+    width: 600px;
+    height: 300px; 
+    top: 0px;
+    left: 0px;
+    position: relative;  
+}
+
+/*referencia del 3er youtube */
+    #youtube3{
+    width: 600px;
+    height: 300px;
+    position:relative;
+    top: -300px;
+    margin: auto;
+    
+}
+    #youtube3 img{
+    width: 300px;
+    height: 150px; 
+    top: 25%;
+    left: 25%;
+    position: relative;
+    transition: 1s;
+}
+    #youtube3:hover img{
+    width: 600px;
+    height: 300px; 
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+#padre{
+    width: 650px;
+    height: 200px;
+   
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: -180px;
+}
+   #hijo1{
+    width: 250px;
+   
+   }
+        #hijo1 img{
+        width: 215px;
+        height: 200px;
+        position: relative;
+
+       
+        
+    }
+
+    #hijo2{
+    width: 250px;
+    
+}
+        #hijo2 img{
+        width: 215px;
+        height: 200px;
+        position: relative;
+        left: 10px;
+    
+}
+    #hijo3{
+    width: 250px;
+    
+}
+        #hijo3 img{
+        width: 215px;
+        height: 200px;
+        position: relative;
+        left: 20px;
+       
+}
+
+#rectangulo{
+    width: 1000px;
+    height: 100px;
+   
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    
+}
+#nieto1 img{
+    width: 50px;
+    border-radius: 90px;
+    position:relative;
+    left: 10px;
+    
+}
+
+#nieto2 img{
+    width: 50px;
+    position: relative;
+    
+    left: 20px;
+    border-radius: 90px;
+}
+#nieto3{
+    width: 250px;
+    height: 50px;
+    position:relative;
+    left: 40px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 15px;
+    font-size: 18px;
+    background: rgb(133, 110, 10); 
+}
+#nieto4{
+    width: 300px;
+    height: 50px;
+    position:relative;
+    left: 350px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 15px;
+    font-size: 20px;
+    background: rgb(128, 53, 11); 
+}
+
+
